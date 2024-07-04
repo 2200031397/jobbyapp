@@ -1,0 +1,30 @@
+.job-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.job-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.job-info h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.job-info p {
+  margin: 5px 0;
+  color: #666;
+}

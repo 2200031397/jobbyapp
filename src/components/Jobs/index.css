@@ -1,0 +1,136 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #3f51b5;
+  padding: 10px;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 18px;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.profile-container {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.jobs-content {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-container button {
+  padding: 10px;
+  background-color: #3f51b5;
+  border: 1px solid #3f51b5;
+  border-radius: 0 5px 5px 0;
+  color: white;
+}
+
+.filters-container {
+  margin-top: 20px;
+}
+
+.filters-container h1 {
+  font-size: 24px;
+}
+
+.filters-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filters-container li {
+  margin: 10px 0;
+}
+
+.jobs-list {
+  margin-top: 20px;
+}
+
+.job-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.job-info h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.job-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.loader-container,
+.error-view,
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.error-view img,
+.no-jobs-view img {
+  width: 100px;
+  height: 100px;
+}
+
+.error-view button,
+.no-jobs-view button {
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
