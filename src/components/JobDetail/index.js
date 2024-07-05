@@ -198,4 +198,4 @@ class JobDetail extends Component {
   }
 }
 
-export default withRouter(JobDetail)
+export default JobDetail
