@@ -1,4 +1,3 @@
-// Jobs.js
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import Cookies from 'js-cookie'
@@ -213,11 +212,11 @@ class Jobs extends Component {
   renderJobsList = () => {
     const {jobs} = this.state
     return (
-      <div className="jobs-list">
+      <ul className="jobs-list">
         {jobs.map(job => (
           <JobItem key={job.id} job={job} />
         ))}
-      </div>
+      </ul>
     )
   }
 
